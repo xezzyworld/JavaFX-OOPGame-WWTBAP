@@ -1,0 +1,48 @@
+0.Which of the following IDE-s is owned by Microsoft?
+-a)Visual Studio
+b)IntelliJ IDEA
+c)NetBeans
+1.What is the correct arrangement of the primitive data types in C# respectively: int, byte, long, short?
+a)16-bits, 8-bits, 32-bits, 64-bits
+-b)32-bits, 8-bits, 64-bits, 16-bits
+c)16-bits, 4-bits, 32-bits, 8-bits
+2.What does the 31-st bit in an int mean?
+-a)the sign of the number in decimal numeric system
+b)whether to the result is added the bit^32
+c)whether the number in a decimal numeric system is odd or even
+3.Which is the ancestor in the family of the List in Java?
+-a)List
+b)ArrayList
+c)LinkedList
+4.What is the difference between an ObjectInputStream and a FileReader?
+a)The OIS reads text files and the FR reads binary files
+-b)The OIS reads binary reads binary files and FR reads text files
+c)There is no difference because the FR is a descendent of the OIS
+5.C# or Java?
+a)C#
+b)Java
+-c)Depends
+6.Which of the following is the most used language in Front-end development?
+-a)Java
+b)C++
+c)Delphi
+7.The binary number 101 is equal to?
+a)10
+-b)5
+c)3
+8.What is the use of blur function?
+-a)Blur function is used to remove the focus from the specified object.
+b)Blur function is used to close the stream in JavaScript.
+c)Blur function is used to remove the focus from the specified scope in the code.
+9.What LAMP stands for?
+a)To light certain area.
+-b)Linux, Apache, MySQL, PHP
+c)Linux, ASP.NET, MSSQL,PHP
+10.What is Laravel?
+-a)PHP framework
+b)Javascript framework
+c)Python framework
+11.Which of the answers have most common with Machine Learning
+a)Model-View-Controller
+b)Linear programming
+-c)Linear regression
