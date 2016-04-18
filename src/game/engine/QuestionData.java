@@ -23,6 +23,7 @@ public class QuestionData {
 
     public int addQuestion(String question, int correctAnswer, String answer1,String answer2,String answer3){
         if(isLocked == false) {
+            if(question==null || question.equals("") ||answer1==null||answer1.equals("")||answer2==null||answer2.equals("")||answer3==null||answer3.equals("")) return 1;
             questions.add(new Question(question, correctAnswer));
             questions.get(questions.size() - 1).addAll(answer1, answer2, answer3);
             if(questions.size() == 12) isLocked = true;
@@ -124,7 +125,7 @@ public class QuestionData {
                 return "Current question list is not correct for save.";
             }
         } catch (IOException e){
-            return "Failure";
+            return "Failure. Probably problem with filename";
         }
         isLocked = true;
         return "Success";

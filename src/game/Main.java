@@ -64,6 +64,9 @@ public class Main extends Application {
 
         Button b = new Button("Level Wizard");
         setButtonStyle(b);
+        b.setOnAction(e->{
+            LevelWizard lw = new LevelWizard(primaryStage,this);
+        });
 
 
         Button c = new Button("Exit");
